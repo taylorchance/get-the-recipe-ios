@@ -12,6 +12,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication,
                        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        AppCenter.start(withAppSecret: "f75b008e-9c81-4ac1-b239-8e1a0481e62d", services:[
+          Analytics.self,
+          Crashes.self
+        ])
 
 // TODO: if we're using Firebase, uncomment next string
         //FirebaseApp.configure()
