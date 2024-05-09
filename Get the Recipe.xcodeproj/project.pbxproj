@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24E420FF676A41C5320F38D8 /* Pods_Get_the_Recipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1920D50BFB1B08F36C06D0F /* Pods_Get_the_Recipe.framework */; };
 		25D3517F267A48E0002E5DC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25D3517E267A48E0002E5DC0 /* GoogleService-Info.plist */; };
 		595F23A525CEFBFE0053416C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F239A25CEFBFD0053416C /* Settings.swift */; };
 		595F23A625CEFBFE0053416C /* Entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 595F239B25CEFBFD0053416C /* Entitlements */; };
@@ -20,6 +19,7 @@
 		595F23AF25CEFBFE0053416C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F23A425CEFBFE0053416C /* WebView.swift */; };
 		CDC0FE292388222C002C8D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC0FE252388222B002C8D56 /* Main.storyboard */; };
 		CDC0FE2A2388222C002C8D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC0FE272388222B002C8D56 /* LaunchScreen.storyboard */; };
+		E1E260C850014D6B34B487B0 /* Pods_GettheRecipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9D7FFB2FBE6EEBCA807B6A /* Pods_GettheRecipe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 		595F23A225CEFBFE0053416C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Get the Recipe/AppDelegate.swift"; sourceTree = "<group>"; };
 		595F23A325CEFBFE0053416C /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Printer.swift; path = "Get the Recipe/Printer.swift"; sourceTree = "<group>"; };
 		595F23A425CEFBFE0053416C /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = "Get the Recipe/WebView.swift"; sourceTree = "<group>"; };
-		A1920D50BFB1B08F36C06D0F /* Pods_Get_the_Recipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Get_the_Recipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9D7FFB2FBE6EEBCA807B6A /* Pods_GettheRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GettheRecipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE8E5C625AE96C07F8AADED /* Pods-Get the Recipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get the Recipe.debug.xcconfig"; path = "Target Support Files/Pods-Get the Recipe/Pods-Get the Recipe.debug.xcconfig"; sourceTree = "<group>"; };
 		CDC0FE262388222B002C8D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Get the Recipe/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		CDC0FE282388222B002C8D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Get the Recipe/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24E420FF676A41C5320F38D8 /* Pods_Get_the_Recipe.framework in Frameworks */,
+				E1E260C850014D6B34B487B0 /* Pods_GettheRecipe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +66,7 @@
 		90E46E861CB86F5FAF46BED9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A1920D50BFB1B08F36C06D0F /* Pods_Get_the_Recipe.framework */,
+				BE9D7FFB2FBE6EEBCA807B6A /* Pods_GettheRecipe.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -370,11 +370,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = NO;
 				CODE_SIGN_ENTITLEMENTS = "Get the Recipe/Entitlements/Entitlements.plist";
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DHWC4PWJ3C;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Get the Recipe/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -382,10 +381,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.gettherecipe;
 				PRODUCT_NAME = GettheRecipe;
-				PROVISIONING_PROFILE_SPECIFIER = net.gettherecipe;
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "development net.gettherecipe";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -400,11 +399,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = NO;
 				CODE_SIGN_ENTITLEMENTS = "Get the Recipe/Entitlements/Entitlements.plist";
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DHWC4PWJ3C;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Get the Recipe/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -412,10 +409,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.gettherecipe;
 				PRODUCT_NAME = GettheRecipe;
-				PROVISIONING_PROFILE_SPECIFIER = net.gettherecipe;
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = net.gettherecipe;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
 				SWIFT_VERSION = 5.0;
