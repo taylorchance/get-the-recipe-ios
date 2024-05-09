@@ -373,7 +373,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DHWC4PWJ3C;
 				INFOPLIST_FILE = "Get the Recipe/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -381,7 +381,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1;
-				CURRENT_PROJECT_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.gettherecipe;
 				PRODUCT_NAME = GettheRecipe;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -401,7 +400,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Get the Recipe/Entitlements/Entitlements.plist";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DHWC4PWJ3C;
 				INFOPLIST_FILE = "Get the Recipe/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -409,7 +408,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1;
-				CURRENT_PROJECT_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.gettherecipe;
 				PRODUCT_NAME = GettheRecipe;
 				SUPPORTS_MACCATALYST = YES;
